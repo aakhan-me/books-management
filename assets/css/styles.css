@@ -1,0 +1,29 @@
+/* Basic styling for the book list */
+.book-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.book-list li {
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.book-list li strong {
+    font-size: 1.2em;
+}
+
+.book-search-box {
+    margin-bottom: 20px;
+}
+
+.book-search-box input[type="text"] {
+    padding: 10px;
+    width: 100%;
+    max-width: 400px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
